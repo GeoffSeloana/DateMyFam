@@ -25,3 +25,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    glide='3.5.1'
+    swipecards = '1.0.9'
+}
