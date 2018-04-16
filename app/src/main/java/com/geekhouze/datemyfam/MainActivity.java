@@ -17,6 +17,7 @@ import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.geekhouze.datemyfam.R;
 public class MainActivity extends AppCompatActivity {
 
     public static MyAppAdapter myAppAdapter;

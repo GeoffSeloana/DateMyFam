@@ -10,16 +10,15 @@
     <!-- activity view -->
     <FrameLayout
         android:layout_width="match_parent"
-
-        android:layout_height="match_parent"
-        android:background="@drawable/background">
+        android:background="#FFFFFF"
+        android:layout_height="match_parent">
 
 
         <com.lorentzos.flingswipe.SwipeFlingAdapterView
             android:id="@+id/frame"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/background"
+            android:background="#FFFFFF"
             app:rotation_degrees="15.5" />
 
     </FrameLayout>
