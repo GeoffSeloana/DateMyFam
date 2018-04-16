@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         myAppAdapter = new MyAppAdapter(array, MainActivity.this);
         flingContainer.setAdapter(myAppAdapter);
+
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
             @Override
             public void removeFirstObjectInAdapter() {
