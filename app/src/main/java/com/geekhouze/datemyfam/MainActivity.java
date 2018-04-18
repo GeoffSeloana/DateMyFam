@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Data> array;
     private SwipeFlingAdapterView flingContainer;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
