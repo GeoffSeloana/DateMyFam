@@ -147,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (rowView == null) {
 
+
                 LayoutInflater inflater = getLayoutInflater();
                 rowView = inflater.inflate(R.layout.item, parent, false);
                 // configure view holder
