@@ -144,7 +144,6 @@ public class MainActivity extends AppCompatActivity {
 
             View rowView = convertView;
 
-
             if (rowView == null) {
 
 
