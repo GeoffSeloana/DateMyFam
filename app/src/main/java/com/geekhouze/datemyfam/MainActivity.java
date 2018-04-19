@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
                 rowView.setTag(viewHolder);
 
             } else {
+
                 viewHolder = (ViewHolder) convertView.getTag();
             }
             //viewHolder.DataText.setText(parkingList.get(position).getDescription() + "");
